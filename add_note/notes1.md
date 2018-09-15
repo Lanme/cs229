@@ -6,7 +6,7 @@ $$
 \frac{\partial\beta^TX}{\partial X}=\beta
 $$
 
-如Y = 3$x_1$+2$x_2$+2 即A = $\left[\begin{matrix}3&2&2\end{matrix}\right]$,X = $\left[\begin{matrix}x_1 \\ x_2 \\ x_3 \end{matrix}\right]$,$\frac{DY}{DX}$ = $\left[\begin{matrix}\partial Y/\partial x_1\\\partial Y/\partial x_2\\ \partial Y/\partial x_3\end{matrix}\right]$=$\left[\begin{matrix}3\\2\\2\end{matrix}\right]$
+如Y = 3$x_1$+2$x_2$+2 即A = $\left[\begin{matrix}3&2&2\end{matrix}\right]$,X = $\left[\begin{matrix}x_1 \\ x_2 \\ x_3 \end{matrix}\right]$,$\frac{DY}{DX}$ = $\left[\begin{matrix}\partial Y/\partial x_1 \\ \partial Y/\partial x_2 \\ \partial Y/\partial x_3\end{matrix}\right]$=$\left[\begin{matrix}3 \\ 2 \\ 2\end{matrix}\right]$
 
 #### 1.2 最小二乘法的参数求解
 
@@ -48,6 +48,6 @@ $$
 
 
 
-![1](https://github.com/Lanme/cs229/master/add_note/img/add_notes1_1.png)
+![1](https://github.com/Lanme/cs229/raw/master/add_note/img/add_notes1_1.png)
 
 一般来说，回归不用在分类问题上，因为回归是连续型模型，而且受噪声影响比较大。
