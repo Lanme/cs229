@@ -3,10 +3,10 @@
 #### 1.1 基本公式
 
 $$
-\frac{\part\beta^TX}{\part X}=\beta
+\frac{\partial\beta^TX}{\partial X}=\beta
 $$
 
-如Y = 3$x_1$+2$x_2$+2 即A = $\left[\begin{matrix}3&2&2\end{matrix}\right]$,X = $\left[\begin{matrix}x_1\\x_2\\x_3\end{matrix}\right]$,$\frac{DY}{DX}$ = $\left[\begin{matrix}\partial Y/\partial x_1\\\partial Y/\partial x_2\\\partial Y/\partial x_3\end{matrix}\right]$=$\left[\begin{matrix}3\\2\\2\end{matrix}\right]$
+如Y = 3$x_1$+2$x_2$+2 即A = $\left[\begin{matrix}3&2&2\end{matrix}\right]$,X = $\left[\begin{matrix}x_1 \\ x_2 \\ x_3 \end{matrix}\right]$,$\frac{DY}{DX}$ = $\left[\begin{matrix}\partial Y/\partial x_1\\\partial Y/\partial x_2\\ \partial Y/\partial x_3\end{matrix}\right]$=$\left[\begin{matrix}3\\2\\2\end{matrix}\right]$
 
 #### 1.2 最小二乘法的参数求解
 
@@ -19,25 +19,25 @@ J(\theta) = \frac{1}{2}(h_{\theta}(x)-y)\\
 $$
 求导
 $$
-\frac{\part Y^TY}{\part\theta} = 0
+\frac{\partial Y^TY}{\partial\theta} = 0
 $$
 
 $$
-\frac{\part\theta^TX^TY}{\part\theta} = \frac{\part(\theta^TX^TY)^T}{\part\theta} = \frac{\part Y^TX\theta}{\part\theta}=X^TY
+\frac{\partial \theta^TX^TY}{\partial \theta} = \frac{\partial (\theta^TX^TY)^T}{\partial \theta} = \frac{\partial Y^TX\theta}{\partial \theta}=X^TY
 $$
 
 因为分子是标量，标量的转置等于本身，所以对分子进行转置操作时等价的。
 $$
-\frac{\part Y^TX\theta}{\part\theta} = X^TY
+\frac{\partial Y^TX\theta}{\partial \theta} = X^TY
 $$
 
 $$
-\frac{\part \theta^TX^TX\theta}{\part\theta} =\frac{\part（\theta^TX^T）^T}{\part\theta}\cdot(X\theta)+\frac{\part X\theta}{\part\theta}\cdot（\theta^TX^T）^T = 2X^TX\theta
+\frac{\partial \theta^TX^TX\theta}{\partial \theta} =\frac{\partial （\theta^TX^T）^T}{\partial \theta}\cdot(X\theta)+\frac{\partial X\theta}{\partial \theta}\cdot（\theta^TX^T）^T = 2X^TX\theta
 $$
 
 即
 $$
-\frac{\part J（\theta）}{\part\theta} =\frac{1}{2}(2X^TX\theta-2X^TY) = 0
+\frac{\partial J（\theta）}{\partial \theta} =\frac{1}{2}(2X^TX\theta-2X^TY) = 0
 $$
 解得
 $$
