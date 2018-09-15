@@ -1,4 +1,8 @@
-### 1、关于矩阵求导
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+## 1、关于矩阵求导
 
 #### 1.1 基本公式
 
