@@ -10,9 +10,10 @@
   $$
 
   $$
-  l(\theta) = \sum_{i=1}^m \log p(x;\theta) \\= \sum_{i=1}^m \log \sum_{z^{(i)}} p(x^{(i)},z^{(i)};\theta) \\
-  =\sum_{i=1}^m \log \sum_{z^{(i)}} Q_i(z^{(i)}) \frac{p(x^{(i)},z^{(i)};\theta)}{Q_i(z^{(i)})} \\
-  \geq J(\theta)
+ l(\theta) = \sum_{i=1}^m \log p(x;\theta) \\
+= \sum_{i=1}^m \log \sum_{z^{(i)}} p(x^{(i)},z^{(i)};\theta) \\
+= \sum_{i=1}^m \log \sum_{z^{(i)}} Q_i(z^{(i)}) \frac{p(x^{(i)},z^{(i)};\theta)}{Q_i(z^{(i)})} \\
+\geq J(\theta)
   $$
 
   EM can also be viewed a coordinate ascent on J,in which the E-step maximizes it with respect on Q,and the M-step maximizes it with respect to $\theta$.
