@@ -1,4 +1,8 @@
-### 1、关于矩阵求导
+<script type="text/javascript"
+src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+## 1、关于矩阵求导
 
 #### 1.1 基本公式
 
@@ -6,7 +10,11 @@ $$
 \frac{\partial \beta^TX}{\partial X}=\beta
 $$
 
+<<<<<<< HEAD
 如Y = 3$x_1$+2$x_2$+2 即A = $\left[\begin{matrix}3&2&2\end{matrix}\right]$,X = $\left[\begin{matrix}x_1 \\ x_2 \\ x_3 \end{matrix}\right]$,$\frac{DY}{DX}$ = $\left[\begin{matrix}\partial Y/\partial x_1\\\partial Y/\partial x_2\\ \partial Y/\partial x_3\end{matrix}\right]$=$\left[\begin{matrix}3 \\ 2 \\ 2\end{matrix}\right]$
+=======
+如Y = 3$x_1$+2$x_2$+2 即A = $\left[\begin{matrix}3&2&2\end{matrix}\right]$,X = $\left[\begin{matrix}x_1 \\ x_2 \\ x_3 \end{matrix}\right]$,$\frac{DY}{DX}$ = $\left[\begin{matrix}\partial Y/\partial x_1 \\ \partial Y/\partial x_2 \\ \partial Y/\partial x_3\end{matrix}\right]$=$\left[\begin{matrix}3 \\ 2 \\ 2\end{matrix}\right]$
+>>>>>>> b3220bfa02c77efa8f43457b7112003af26d3ed1
 
 #### 1.2 最小二乘法的参数求解
 
@@ -51,6 +59,7 @@ $$
 ![1](https://github.com/Lanme/cs229/raw/master/add_note/img/add_notes1_1.png)
 
 一般来说，回归不用在分类问题上，因为回归是连续型模型，而且受噪声影响比较大。
+<<<<<<< HEAD
 
 ## 3、梯度下降与泰勒公式
 
@@ -114,3 +123,5 @@ x = x_k - \frac{f'(x_k)}{f''(x_k)}
 $$
 
 或者令$f(\theta) = l'(\theta)$，即当$l'(\theta)=0$为极值点，可得到相同结果。
+=======
+>>>>>>> b3220bfa02c77efa8f43457b7112003af26d3ed1
