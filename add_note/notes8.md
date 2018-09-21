@@ -23,5 +23,3 @@
   ![1](https://github.com/Lanme/cs229/raw/master/add_note/img/add_notes8_1.png)
 
   此时$l(\theta)$为$p(x|\theta)$，$r(x|\theta)$即$J(\theta)$。令$r(x|\theta_1) = p(x|\theta_1)$ (E-step)，然后对$r(x|\theta)$求最大化得到新的$\theta = \theta_2$ （M-step），将$p(x|\theta)$从$\theta_1$移动到$\theta_2$。
-
-## 
