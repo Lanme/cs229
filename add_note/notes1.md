@@ -1,6 +1,3 @@
-<script type="text/javascript"
-src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
 
 ## 1、关于矩阵求导
 
@@ -10,7 +7,10 @@ $$
 \frac{\partial \beta^TX}{\partial X}=\beta
 $$
 
-如Y = 3$x_1$+2$x_2$+2 即A = $\left[\begin{matrix}3&2&2\end{matrix}\right]$,X = $\left[\begin{matrix}x_1 \\ x_2 \\ x_3 \end{matrix}\right]$,$\frac{DY}{DX}$ = $\left[\begin{matrix}\partial Y/\partial x_1 \\ \partial Y/\partial x_2 \\ \partial Y/\partial x_3\end{matrix}\right]$=$\left[\begin{matrix}3 \\ 2 \\ 2\end{matrix}\right]$
+
+
+如Y = 3$x_1$+2$x_2$+2 即A = $\left[\begin{matrix}3&2&2\end{matrix}\right]$,X = $\left[\begin{matrix}x_1 \\ x_2 \\ x_3 \end{matrix}\right]$,$\frac{DY}{DX}$ = $\left[\begin{matrix}\partial Y/\partial x_1\\\partial Y/\partial x_2\\ \partial Y/\partial x_3\end{matrix}\right]$=$\left[\begin{matrix}3 \\ 2 \\ 2\end{matrix}\right]$
+
 #### 1.2 最小二乘法的参数求解
 
 参考：https://en.wikipedia.org/wiki/Matrix_calculus#Scalar-by-vector_identities
@@ -54,6 +54,7 @@ $$
 ![1](https://github.com/Lanme/cs229/raw/master/add_note/img/add_notes1_1.png)
 
 一般来说，回归不用在分类问题上，因为回归是连续型模型，而且受噪声影响比较大。
+<<<<<<< HEAD
 
 ## 3、梯度下降与泰勒公式
 
@@ -117,3 +118,15 @@ x = x_k - \frac{f'(x_k)}{f''(x_k)}
 $$
 
 或者令$f(\theta) = l'(\theta)$，即当$l'(\theta)=0$为极值点，可得到相同结果。
+
+## 5、关于梯度下降
+
+- 如果我们预先把$\theta$放在一个局部的最低点，结果是局部最优点的导数将等于0，因为它是那条切线的斜率，此时梯度下降法不会改变参数的值。
+
+- 当我们面对多维度的特征，我们要保证这些特征都有相近的尺度，这有助于梯度下降算法更快收敛。
+
+  ![2](https://github.com/Lanme/cs229/raw/master/add_note/img/add_notes1_2.png)
+
+- 只要特征变量的数目不是很大，标准方程是一个很好的计算$\theta$的替代方法，即$\theta = (X^TX)^{-1}X^TY$。
+
+
