@@ -63,3 +63,21 @@ $p(x)=\prod\limits_{j=1}^np(x_j;\mu_j,\sigma_j^2)=\prod\limits_{j=1}^1\frac{1}{\
 - 如果我们得到的曲线如上面右下方所示：
 
 那么我们可能会需要选择一个较小的学习率$α$。
+
+### 5、随机梯度下降
+
+随机梯度下降算法为：
+
+<font color=#FF1111>**首先对训练集随机“洗牌”**</font>，
+
+然后：
+ Repeat (usually anywhere between1-10){
+
+  **for** $i = 1:m${
+
+ ​       $\theta:={\theta}_{j}-\alpha\left( {h}_{\theta}\left({x}^{(i)}\right)-{y}^{(i)} \right){{x}_{j}}^{(i)}$      
+
+​        (**for** $j=0:n$)
+
+ ​    }
+ }
