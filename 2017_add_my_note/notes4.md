@@ -8,7 +8,7 @@ Variance反映的是模型每一次输出结果与模型输出期望之间的误
 
 Bias反映的是模型在样本上的输出与真实值之间的误差
 
-![1](https://github.com/Lanme/cs229/raw/master/add_note/img/add_notes4_1.png))
+![1](/img/add_notes4_1.png))
 
 ## 2、样本量与误差
 

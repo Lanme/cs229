@@ -1,3 +1,5 @@
+
+
 ## 1、拉格朗日乘子法
 
 > 转换为求最小值
@@ -50,7 +52,7 @@ $$
 
 ## 2、原始问题与对偶问题的关系
 
- 
+
 $$
 d \star = \max_{\alpha ,\beta ;\alpha_i \geq 0} \min_x L(x,\alpha,\beta) \\
 \leq min_x max_{\alpha ,\beta ;\alpha_i \geq 0} L(x,\alpha , \beta) = p \star
@@ -101,7 +103,13 @@ $$
 
 C是惩罚因子，即对误差的宽容度。c越高，说明越不能容忍出现误差，容易过拟合。C越小，容易欠拟合。C过大或过小，泛化能力变差。
 
-![2](https://github.com/Lanme/cs229/raw/master/add_note/img/add_notes3_2.png)
+回顾 $C=1/\lambda$，因此：
+
+$C$ 较大时，相当于 $\lambda$ 较小，可能会导致过拟合，高方差。
+
+$C$ 较小时，相当于$\lambda$较大，可能会导致低拟合，高偏差。
+
+![2](/img/add_notes3_2.png)
 
 ## 5、Gamma
 
@@ -112,7 +120,11 @@ gamma = \frac{1}{2 \cdot \sigma^2}
 $$
 $\sigma$表示带宽，因此gamma越大 $\sigma$越小，正态分布越瘦高，使得靠近中间的向量权重更大。
 
-![1](https://github.com/Lanme/cs229/raw/master/add_note/img/add_notes3_1.png)
+$\sigma$较大时，gamma较小，权重越小， 可能会导致低方差，高偏差；
+
+$\sigma$较小时，gamma较大，权重越大， 可能会导致低偏差，高方差。
+
+![1](/img/add_notes3_1.png)
 
 gamma越大，靠近分割面的样本权重越大，导致分割面变得弯曲。
 

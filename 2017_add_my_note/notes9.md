@@ -47,15 +47,15 @@ $$
 $$
 x^{(i)} = \mu + \Lambda z^{(i)} +\epsilon
 $$
-![1](https://github.com/Lanme/cs229/raw/master/add_note/img/add_note9_1.png)
+![1](/img/add_note9_1.png)
 
-![2](https://github.com/Lanme/cs229/raw/master/add_note/img/add_note9_2.png)
+![2](/img/add_note9_2.png)
 
-![3](https://github.com/Lanme/cs229/raw/master/add_note/img/add_note9_3.png)
+![3](/img/add_note9_3.png)
 
-![4](https://github.com/Lanme/cs229/raw/master/add_note/img/add_note9_4.png)
+![4](/img/add_note9_4.png)
 
-![5](https://github.com/Lanme/cs229/raw/master/add_note/img/add_note9_5.png)
+![5](/img/add_note9_5.png)
 
 [参考地址]( https://blog.csdn.net/ruohuanni/article/details/42123625)
 
