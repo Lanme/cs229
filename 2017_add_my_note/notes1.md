@@ -51,10 +51,9 @@ $$
 
 
 
-![1](https://github.com/Lanme/cs229/raw/master/add_note/img/add_notes1_1.png)
+![1](/img/add_notes1_1.png)
 
 一般来说，回归不用在分类问题上，因为回归是连续型模型，而且受噪声影响比较大。
-<<<<<<< HEAD
 
 ## 3、梯度下降与泰勒公式
 
@@ -125,8 +124,12 @@ $$
 
 - 当我们面对多维度的特征，我们要保证这些特征都有相近的尺度，这有助于梯度下降算法更快收敛。
 
-  ![2](https://github.com/Lanme/cs229/raw/master/add_note/img/add_notes1_2.png)
+  
+
+  ![2](/img/add_notes1_2.png)
 
 - 只要特征变量的数目不是很大，标准方程是一个很好的计算$\theta$的替代方法，即$\theta = (X^TX)^{-1}X^TY$。
 
+## 6、学习率
 
+![3](/img/add_notes1_3.png)
