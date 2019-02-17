@@ -61,7 +61,7 @@ $$
 $$
 f(\theta) \approx f(\theta_0)+(\theta-\theta_0)\cdot\bigtriangledown f(\theta_0)
 $$
-在三维空间中展开：
+在二维空间中展开：
 
 $\theta = (x,y)$
 
